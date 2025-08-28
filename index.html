@@ -17,7 +17,75 @@
     <link rel="stylesheet" href="./tailwind.init.css">
 
 </head>
-<body>
+<body class="bg-[#41ff6b1a]">
+
+    <!-- Navbar Section -->
+
+    <nav class="px-2 py-3 md:px-[60px] md:py-[25px] flex justify-between items-center bg-white bg-[]">
+        <!-- Left Side -->
+        <div class="flex items-center gap-2 md:gap-[10px]">
+            <div class="w-[30px] md:w-[50px]">
+                <img src="./assets/logo.png" alt="">
+            </div>
+            <div class="font-extrabold text-[#006747] text-[12px] md:text-2xl">
+                <p>Emergency <br> Service</p>
+            </div>
+        </div>
+
+        <!-- Right Side -->
+        <div class="flex justify-center items-center gap-[5px] md:gap-5 inter-font">
+            <div>
+                <button
+                    class="bg-[#41ff6b1a] flex justify-center items-center rounded-[50px] px-4 py-[8px] md:px-9 md:py-[14px]">
+                    <div class="flex items-center justify-center gap-[10px]">
+                        <span id="heart-count" class="font-black">0</span>
+                        <img class="w-6" src="./assets/heart.png" alt="">
+                    </div>
+                </button>
+            </div>
+            <div>
+                <button
+                    class="bg-[#41ff6b1a] flex justify-center items-center rounded-[50px] px-4 py-[8px] md:px-9 md:py-[14px]">
+                    <div class="flex items-center justify-center gap-[10px]">
+                        <span id="coin-value" class="font-black">100</span>
+                        <img class="w-6" src="./assets/coin.png" alt="">
+                    </div>
+                </button>
+            </div>
+            <div>
+                <button
+                    class="bg-[#00A63E] text-white flex justify-center items-center rounded-[50px] px-4 py-[8px] md:px-9 md:py-[14px]">
+                    <div class="flex items-center justify-center gap-[5px] font-semibold">
+                        <span id="copy-value">0</span>
+                        <p>Copy</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+           
+    </nav>
+
+
+    <!-- Hero Section -->
+    <header class="py-[21px] bg-gradient-to-r from-[rgb(1,50,35)] via-[#006747] to-[#013223]">
+
+        <div class="w-[92px] mx-auto">
+            <img src="./assets/logo-dark.png" alt="">
+        </div>
+
+        <div class="mx-10 md:mx-15">
+            <div class="mt-[11px] text-center">
+                <p class="font-semibold md:text-[40px] text-white">জরুরি সেবা ডিরেক্টরি</p>
+            </div>
+
+            <div class="mt-[11px] text-center">
+                <p class="text-white font-semibold md:text-[20px] ">Government Emergency Services at Your Fingertip – A
+                    Project by Government of the People’s Republic of Bangladesh</p>
+            </div>
+        </div>
+
+    </header>
+
     
 </body>
 </html>
